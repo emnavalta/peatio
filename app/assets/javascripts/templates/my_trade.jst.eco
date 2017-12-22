@@ -1,0 +1,21 @@
+<% trend = formatter.trend @kind %>
+
+<tr class='<%= @classes %>' data-id='<%= @id %>'>
+  <td colspan=2 class="time text-left col-xs-8"><div>
+    <%- formatter.fulltime @at %>
+  </div></td>
+  <td class='price text-right col-xs-4 <%= trend %>'><div>
+    <%- formatter.mask_fixed_price @price %>
+  </div></td>
+  <td class='volume text-right col-xs-4'><div>
+    <%- formatter.mask_fixed_volume @volume %>
+  </div></td>
+  <td class='profit_or_loss text-right col-xs-4'><div>
+    <% if @profit_or_loss: %>
+      <span>
+        <%- formatter.mask_fixed_price @profit_or_loss %>
+      </span>
+      <button type='button' class='btn btn-danger btn-xs pl-close-trade-button' data-kind='<%= @kind %>'>X</button>
+    <% end %>
+  </div></td>
+</tr>

@@ -1,0 +1,13 @@
+class <%= grid_class_name %> < BaseGrid
+
+  scope do
+    <%= grid_model_name %>
+  end
+
+  filter(:id, :integer)
+  filter(:created_at, :date, :range => true)
+
+  column(:id)
+  column(:name)
+  date_column(:created_at)
+end

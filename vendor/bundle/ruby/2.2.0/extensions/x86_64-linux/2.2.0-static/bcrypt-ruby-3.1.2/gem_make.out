@@ -1,0 +1,16 @@
+/home/deploy/.rbenv/versions/2.2.2/bin/ruby -r ./siteconf20171218-24107-1re7riy.rb extconf.rb
+checking for ruby/util.h... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling crypt_gensalt.c
+compiling wrapper.c
+compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_blowfish.c
+linking shared-object bcrypt_ext.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20171218-24107-1t876ig

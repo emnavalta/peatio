@@ -1,0 +1,12 @@
+/home/deploy/.rbenv/versions/2.2.2/bin/ruby -r ./siteconf20171218-5960-ih1oev.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20171218-5960-7jzad4

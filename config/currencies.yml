@@ -1,0 +1,27 @@
+- id: 1
+  key: phpeso
+  code: php
+  symbol: "P"
+  coin: false
+  precision: 2
+  assets:
+    accounts:
+      -
+        bank: 'Chase Bank'
+        address: '6225 0885 6022 3501'
+        password: '111111'
+        tel: '95555'
+- id: 2
+  key: digibyte
+  code: dgb
+  symbol: "D"
+  coin: true
+  precision: 4
+  quick_withdraw_max: 0
+  rpc: http://localhost
+  blockchain: https://etherscan.io/tx/#{txid}
+  address_url: https://etherscan.io/address/#{address}
+  assets:
+    accounts:
+      -
+        address: 0x4bA2474e063Aec44e23F2Bf7Fb9e4e2878dBaB44

@@ -1,0 +1,6 @@
+<% if @profit_or_loss: %>
+  <span>
+    <%- formatter.mask_fixed_price @profit_or_loss %>
+  </span>
+  <button type='button' class='btn btn-danger btn-xs pl-close-trade-button' data-kind='<%= @kind %>'>X</button>
+<% end %>
