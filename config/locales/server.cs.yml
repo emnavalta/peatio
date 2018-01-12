@@ -1459,9 +1459,9 @@ cs:
   gon:
     ask: Poptávka
     bid: Nabídka
-    brand: TradeDGB Exchange
+    brand: TradeDGB
     notification:
-      title: TradeDGB Exchange
+      title: TradeDGB
       enabled: Notifikace aktivní
       new_trade: "%{kind} objednávka#%{id} zpracována %{price} %{quote_unit} objem %{volume} %{base_unit}。"
   back: Zpět
