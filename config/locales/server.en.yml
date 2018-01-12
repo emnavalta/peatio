@@ -746,14 +746,14 @@ en:
     digibyte:
       key: Digibyte Chain
       title: Digibyte Deposits
-      intro: Deposit digibyte from your own wallet address to Cryex24 account
+      intro: Deposit digibyte from your own wallet address to TradeDGB account
       latency: 1 confirmation
       transfer: Manual
       go: Deposit
     satoshi:
       key: Block Chain
       title: Bitcoin Deposits
-      intro: Deposit bitcoin from your own wallet address to Cryex24 account
+      intro: Deposit bitcoin from your own wallet address to TradeDGB account
       latency: 1 confirmation
       transfer: Manual
       go: Deposit
@@ -767,35 +767,35 @@ en:
     litecoin:
       key: Litecoin Chain
       title: Litecoin Deposits
-      intro: Deposit litecoin from your own wallet address to Cryex24 account
+      intro: Deposit litecoin from your own wallet address to TradeDGB account
       latency: 1 confirmation
       transfer: Manual
       go: Deposit
     peercoin:
       key: Peercoin Chain
       title: Peercoin Deposits
-      intro: Deposit peercoin from your own wallet address to Cryex24 account
+      intro: Deposit peercoin from your own wallet address to TradeDGB account
       latency: 1 confirmation
       transfer: Manual
       go: Deposit
     blackcoin:
       key: Blackcoin Chain
       title: Blackcoin Deposits
-      intro: Deposit blackcoin from your own wallet address to Cryex24 account
+      intro: Deposit blackcoin from your own wallet address to TradeDGB account
       latency: 1 confirmation
       transfer: Manual
       go: Deposit
     realpointcoin:
       key: RealPointCoin Chain
       title: RealPointCoin Deposits
-      intro: Deposit realpointcoin from your own wallet address to Cryex24 account
+      intro: Deposit realpointcoin from your own wallet address to TradeDGB account
       latency: 1 confirmation
       transfer: Manual
       go: Deposit
     tritiumcoin:
       key: Tritiumcoin Chain
       title: Tritium Deposits
-      intro: Deposit tritium from your own wallet address to Cryex24 account
+      intro: Deposit tritium from your own wallet address to TradeDGB account
       latency: 1 confirmation
       transfer: Manual
       go: Deposit
@@ -1058,7 +1058,7 @@ en:
       view_open_tickets: View open tickets
     account_versions:
       index:
-        description: Every transaction and every penny of income in Cryex24 are well documented and exhaustive.
+        description: Every transaction and every penny of income in TradeDGB are well documented and exhaustive.
     api_tokens:
       user_tokens:
         no_token: You have no API token.
@@ -1133,7 +1133,7 @@ en:
         title: Proof of Liabilities
         intro: As an exchange, our liabilities refer to the sum of money (in both crypto currencies and fiat currencies) that our users trust us with. On this page, we present you our liabilities. We also provide you a way to verify that your account balance is indeed part of our liabilities.
         how-to-verify: How to verify an exchange is solvent?
-        how-to-verify-uri: http://Cryex24.com/documents/liability_proof
+        how-to-verify-uri: http://TradeDGB.com/documents/liability_proof
       liability_data:
         liability-proof-generating: Proof of Liability generation in process, please come back after 30 minutes.
         root-json: Root node
@@ -1534,15 +1534,15 @@ en:
       panel: Login
       new:
         title: Login my account
-        intro: Login Cryex24 now for you to exchange.
+        intro: Login TradeDGB now for you to exchange.
       failure:
         title: Login my account
-        intro: Login Cryex24 now for you to exchange.
+        intro: Login TradeDGB now for you to exchange.
     identities:
       panel: Create Account
       new:
         title: Create My Account
-        intro: This will be your only ID on Cryex24 which is necessary for your exchange, deposit and withdrawal . please fill it out carefully.
+        intro: This will be your only ID on TradeDGB which is necessary for your exchange, deposit and withdrawal . please fill it out carefully.
       edit:
         panel: My Account
         title: Reset Password
@@ -2037,7 +2037,7 @@ en:
       trade: Submit and cancel orders
     authorizations:
       new:
-        title: Cryex24 Application Authorization
+        title: TradeDGB Application Authorization
         authorize_html: Authorize <strong class='text-info'>%{name}</strong> to use your account?
         scopes: 'This application will be able to:'
         authorize: Authorize
@@ -2230,41 +2230,41 @@ en:
 
   mailer:
     dear_user: Dear user,
-    signature: Thanks,<br/>The Cryex24 Team
+    signature: Thanks,<br/>The TradeDGB Team
     please_contact: If it's not you, please <a href='mailto:%{contact_mail}'>contact us</a> ASAP.
     footer: This is an automatically generated email, please do not reply, if you have any question, please <a href="mailto:%{contact_mail}">contact us</a>.
   comment_mailer:
     admin_notification:
-      subject: "[Cryex24] User reply a ticket"
+      subject: "[TradeDGB] User reply a ticket"
       notification_content: User %{email} reply a ticket, please follow the link below to see the detail
     user_notification:
-      subject: "[Cryex24] Your ticket got a new reply"
+      subject: "[TradeDGB] Your ticket got a new reply"
       notification_content: 'Your ticket got a new reply, please follow the link below to see the detail:'
   deposit_mailer:
     accepted:
-      subject: "[Cryex24] Your deposit has been credited into your account"
+      subject: "[TradeDGB] Your deposit has been credited into your account"
       content: Your %{currency} deposit has been credited into your account.
   member_mailer:
     notify_signin:
-      subject: "[Cryex24] You have just signed in"
+      subject: "[TradeDGB] You have just signed in"
       just_signed_in: You have just signed in.
     google_auth_activated:
-      subject: "[Cryex24] Google authenticator activated"
+      subject: "[TradeDGB] Google authenticator activated"
       google_auth_activated: You have activated google authenticator successfully
     google_auth_deactivated:
-      subject: "[Cryex24] Google authenticator deactivated"
+      subject: "[TradeDGB] Google authenticator deactivated"
       google_auth_deactivated: You have deactivated google authenticator successfully
     sms_auth_activated:
-      subject: "[Cryex24] SMS authenticator activated"
+      subject: "[TradeDGB] SMS authenticator activated"
       sms_auth_activated: You have activated SMS authenticator successfully
     sms_auth_deactivated:
-      subject: "[Cryex24] SMS authenticator deactivated"
+      subject: "[TradeDGB] SMS authenticator deactivated"
       sms_auth_deactivated: You have deactivated SMS authenticator successfully
     reset_password_done:
-      subject: "[Cryex24] Your password changed"
+      subject: "[TradeDGB] Your password changed"
       successful: Your password has been changed successfully.
     phone_number_verified:
-      subject: "[Cryex24] Your phone number verified"
+      subject: "[TradeDGB] Your phone number verified"
       verified: 'Your phone number verified: %{phone_number}'
   system_mailer:
     daily_stats:
@@ -2277,33 +2277,33 @@ en:
       trades_change_total: Trades Changes Total
   ticket_mailer:
     admin_notification:
-      subject: "[Cryex24] User created a new ticket"
+      subject: "[TradeDGB] User created a new ticket"
       admin_notification_content: User %{email} created a new ticket, please follow the link below to see the detail
     author_notification:
-      subject: "[Cryex24] Thank you for submit ticket"
+      subject: "[TradeDGB] Thank you for submit ticket"
       thanks_for_submit_ticket: Thank you for submit ticket to us, we will get back to you as soon as possible.
   token_mailer:
     activation:
-      subject: "[Cryex24] Account Activation"
-      click_to_verify: 'Thank you for signing up on Cryex24, please follow this link to verify your Email:'
+      subject: "[TradeDGB] Account Activation"
+      click_to_verify: 'Thank you for signing up on TradeDGB, please follow this link to verify your Email:'
       unable_to_click: Copy and open the link in your browser if you are unable to click and visit it.
       link_expire: The link expires in 30 minutes.
     reset_password:
-      subject: "[Cryex24] Please Reset Your Password"
+      subject: "[TradeDGB] Please Reset Your Password"
       hi: Hi,
       follow_the_link: 'Please follow this link to reset your password within 30 minutes:'
   withdraw_mailer:
     submitted:
-      subject: "[Cryex24] Your withdraw state update"
+      subject: "[TradeDGB] Your withdraw state update"
       content: The request of your %{currency} withdrawal has been successfully submitted, We will process it as soon as possible. Please be patient with us. Contact us if you have any questions.
     processing:
-      subject: "[Cryex24] Your withdraw state update"
+      subject: "[TradeDGB] Your withdraw state update"
       content: The request of your %{currency} withdrawal is in process. Please be patient with us. Contact us if you have any questions.
     done:
-      subject: "[Cryex24] Your withdraw state update"
+      subject: "[TradeDGB] Your withdraw state update"
       content: The request of your %{currency} withdrawal is complete. Please check it out. Contact us if you have any questions.
     withdraw_state:
-      subject: "[Cryex24] Your withdraw state update"
+      subject: "[TradeDGB] Your withdraw state update"
       your_state: 'Your withdrawal state: '
 
   'true': true
@@ -2323,9 +2323,9 @@ en:
   gon:
     ask: Ask
     bid: Bid
-    brand: Cryex24 Exchange
+    brand: TradeDGB Exchange
     notification:
-      title: Cryex24 Exchange
+      title: TradeDGB Exchange
       enabled: Notification enabled.
       new_trade: "%{kind} order#%{id} executed at %{price} %{quote_unit} for %{volume} %{base_unit}。"
   back: Back
@@ -2530,8 +2530,8 @@ en:
     application:
       close: Close
     meta:
-      page_title: Cryex24.com - The Cryptocurrency Exchange
-      page_description: Cryex24.com - The Cryptocurrency Exchange
+      page_title: TradeDGB.com - The Cryptocurrency Exchange
+      page_description: TradeDGB.com - The Cryptocurrency Exchange
       page_keywords: Exchange,Cryptocurrency
   members:
     edit:
@@ -2610,7 +2610,7 @@ en:
     google_auths:
       edit:
         submit: Disable
-        warning: 'Tip: If you have lost your Two-Factor Authentication by some reason and can''t login your Cryex24 account, please contact our online customer service.'
+        warning: 'Tip: If you have lost your Two-Factor Authentication by some reason and can''t login your TradeDGB account, please contact our online customer service.'
       show:
         step-1: Step 1
         step-2: Step 2
@@ -2827,7 +2827,7 @@ en:
   mainpage:
     message1: YOUR PROFESSIONAL CRYPTO CURRENCY EXCHANGER
     message2: The Next Generation Multi Crypto Currency 24/7 Live Exchange
-    message3: Trade multiple digital currencies easy, safe, and smart, Cryex24 brings you a whole new technical view on trading through candle sticks plus line charting now analysis and predicate your future trades based on past and present trades using the simple yet advanced charting tools MA, EMA and MACD.
+    message3: Trade multiple digital currencies easy, safe, and smart, TradeDGB brings you a whole new technical view on trading through candle sticks plus line charting now analysis and predicate your future trades based on past and present trades using the simple yet advanced charting tools MA, EMA and MACD.
     message3с: Get Started
     message4a: Crypto to Crypto exchange
     message4b: We provide individuals and Merchants a world class experience to buy and sell Multi crypto currencies
