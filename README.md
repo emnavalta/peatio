@@ -24,14 +24,14 @@ revert doc/deploy-production-server.md
 
 •Multi Server Support https://github.com/scatterp/peatio/blob/master/MultiServerReadme.md
 
-•Installer with minimal steps [![RELEASE]()(https://github.com/scatterp/peatio/blob/master/install1.sh)]
-wget https://raw.githubusercontent.com/scatterp/peatio/master/install1.sh
+•To setup, just follow these steps (type these inside the console)
+wget https://raw.githubusercontent.com/emnavalta/peatio/master/install1.sh
 source install1.sh 
 
 NOTE: it is critical you launch this with "SOURCE" not "SH" not "BASH" etc
 NOTE2: less than 4GB of ram you should disable the line that reads bitcoind or you wont have enough memory to launch the page
 
-•Merge in welcome page from coinxpro.com [![RELEASE]()(https://github.com/scatterp/peatio/https://github.com/scatterp/peatio/tree/testcoinx)]
+•Merge in welcome page from coinxpro.com
 
 ### Todo (Coming soon in priority order)
 
