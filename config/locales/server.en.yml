@@ -1133,7 +1133,7 @@ en:
         title: Proof of Liabilities
         intro: As an exchange, our liabilities refer to the sum of money (in both crypto currencies and fiat currencies) that our users trust us with. On this page, we present you our liabilities. We also provide you a way to verify that your account balance is indeed part of our liabilities.
         how-to-verify: How to verify an exchange is solvent?
-        how-to-verify-uri: http://TradeDGB.com/documents/liability_proof
+        how-to-verify-uri: http://TradeDGB.net/documents/liability_proof
       liability_data:
         liability-proof-generating: Proof of Liability generation in process, please come back after 30 minutes.
         root-json: Root node
@@ -2530,8 +2530,8 @@ en:
     application:
       close: Close
     meta:
-      page_title: TradeDGB.com - The Cryptocurrency Exchange
-      page_description: TradeDGB.com - The Cryptocurrency Exchange
+      page_title: TradeDGB.net - The Cryptocurrency Exchange
+      page_description: TradeDGB.net - The Cryptocurrency Exchange
       page_keywords: Exchange,Cryptocurrency
   members:
     edit:
