@@ -480,7 +480,8 @@ en:
     currency:
       eur: EUR
       btc: BTC
-      eur: EUR
+      php: PHP
+      dgb: DGB
       doge: DOGE
       pts: PTS
       ltc: LTC
@@ -1187,7 +1188,8 @@ en:
         account_history: Account History
         eur_format: '0.00'
         cny_format: '0.00'
-        eur_format: '0.00'
+        php_format: '0.00'
+        dgb_format: '0.00'
         btc_format: '0.00000000'
         ltc_format: '0.00000000'
         ppc_format: '0.00000000'
@@ -1475,6 +1477,8 @@ en:
         cny_format: '0.00'
         eur_format: '0.00'
         eur_format: '0.00'
+        php_format: '0.00'
+        dgb_format: '0.00000000'
         btc_format: '0.00000000'
         ltc_format: '0.00000000'
         ppc_format: '0.00000000'
@@ -2177,6 +2181,8 @@ en:
       blk: BLK
       rpt: RPT
       trt: TRT
+      php: PHP
+      dgb: DGB
     order:
       state:
         done: DONE
