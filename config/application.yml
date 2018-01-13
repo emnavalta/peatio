@@ -3,10 +3,10 @@ defaults: &defaults
   # sites hosts
   # session expire seconds
   # admin role account
-  URL_HOST: 173.249.16.49
+  URL_HOST: 173.249.9.239
   URL_SCHEMA: http
   SESSION_EXPIRE: 60
-  ADMIN: 'emnavalta@gmail.com,simon@princeberk.com'
+  ADMIN: 'emnavalta@gmail.com,cr33ptomine@tutanota.de'
   TIMEZONE: 'Beijing'
 
   REDIS_URL: redis://127.0.0.1:6379
