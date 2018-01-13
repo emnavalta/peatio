@@ -505,7 +505,7 @@ en:
     digibyte:
       key: DGB
       code: DGB
-      name: Bitcoin
+      name: DigiByte
       format: '0,0.0000'
     satoshi:
       key: BTC

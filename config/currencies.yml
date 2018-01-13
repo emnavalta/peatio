@@ -16,7 +16,7 @@
   code: dgb
   symbol: "Ɗ"
   coin: true
-  precision: 8
+  precision: 4
   quick_withdraw_max: 0
   rpc: http://localhost
   blockchain: https://etherscan.io/tx/#{txid}
