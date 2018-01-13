@@ -1,6 +1,6 @@
-- id: phpdgb
+- id: dgbphp
   code: 4
-  base_unit: php
-  quote_unit: dgb
-  bid: {fee: 0, currency: php, fixed: 8}
+  base_unit: dgb
+  quote_unit: php
+  bid: {fee: 0, currency: php, fixed: 2}
   ask: {fee: 0, currency: dgb, fixed: 8}

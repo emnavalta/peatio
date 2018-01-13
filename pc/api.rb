@@ -3,7 +3,7 @@
 #puts $LOAD_PATH
  require 'peatio_client'
  def go(market,volume,side,price)
-   client_public = PeatioAPI::Client.new endpoint: 'https://server.TradeDGB.com'
+   client_public = PeatioAPI::Client.new endpoint: 'https://server.TradeDGB.net'
    client = PeatioAPI::Client.new access_key: 'VcVKRAiPz2JIDYOUt7eIz8oX5l7eXAweaXvxeZCy', secret_key: 'Lcdql0WYp4pDucRhxZ5xUxP6SvnnXywqfFaUlJ2C', endpoint: 'https://server.TradeDGB.com', timeout: 60
    client.post '/api/v2/orders', market: market, side: side, volume: volume, price: price
  end

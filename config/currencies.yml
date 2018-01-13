@@ -1,7 +1,7 @@
 - id: 1
   key: phpeso
   code: php
-  symbol: "P"
+  symbol: "₱"
   coin: false
   precision: 2
   assets:
@@ -14,7 +14,7 @@
 - id: 2
   key: digibyte
   code: dgb
-  symbol: "D"
+  symbol: "Ɗ"
   coin: true
   precision: 4
   quick_withdraw_max: 0
