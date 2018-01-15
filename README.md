@@ -35,15 +35,9 @@ NOTE2: less than 4GB of ram you should disable the line that reads bitcoind or y
 
 ### Todo (Coming soon in priority order)
 
-•payment processing
+•Deposit and Withdrawals
 
-•Investigate PoxA or socket.io as a pusher replacement
-
-•all code has refactored 
-
-•JRuby compatability and executes faster than previous versions at every step 
-
-•FIX financial information exchange API  added to bring the support of the entire financial eco system allowing for trading clients banks etc to connect with the exchange
+•Mailer
 
 
 README in English
