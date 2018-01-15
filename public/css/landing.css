@@ -4,7 +4,7 @@
 }
 .navbar-default {
     border: none;
-    border-bottom: 1px solid #00cee8;
+    border-bottom: 1px solid #16bdcc;
 }
 footer{
     background-color: #f3f3f3;
@@ -46,8 +46,8 @@ h2.panel-title {
 }
 .btn-default {
     color: white;
-    background-color: #00cee8;
-    border-color: #00cee8;
+    background-color: #16bdcc;
+    border-color: #16bdcc;
 }
 .btn-lg, .btn-group-lg > .btn {
     border-radius: 0px;
@@ -73,7 +73,7 @@ header #languages li > a{ padding-top: 8px; }
     margin-bottom: 0px;
 }
 ul.nav.navbar-nav.navbar-right li {
-    border: 1px solid #00cee8;
+    border: 1px solid #16bdcc;
     border-radius: 4px;
     padding: 0px;
     margin-left: 20px;
@@ -222,7 +222,7 @@ ul.nav.navbar-nav.navbar-right li:hover {
 }
 
 .banner2{
-    background: black;
+    background-color: rgba(255, 255, 255, 0.13 );
     width: 100%;
     position: relative;
 }
@@ -255,7 +255,7 @@ ul.nav.navbar-nav.navbar-right li:hover {
     height: 50px;
 }
 .seperator-line{
-    background-color: #00cee8;
+    background-color: #16bdcc;
     height:1px;
     width:100%
 }
@@ -270,7 +270,7 @@ body{
 .index_menu_item {
     display: inline-block;
     padding-left: 20px;
-    color: #00cee8;
+    color: #16bdcc;
     font-size: 13px;
 }
 #index_menu {
@@ -311,7 +311,7 @@ ul.dropdown-menu {
     color: #00cfea;
 }
 .dropdown-menu li {
-    border: 1px solid #00cee8;
+    border: 1px solid #16bdcc;
     border-radius: 4px;
     padding: 0px;
     margin-left: 20px;
@@ -340,7 +340,7 @@ a:hover {
 }
 .navbar-default {
     border: none;
-    /*border-bottom: 1px solid #00cee8;*/
+    /*border-bottom: 1px solid #16bdcc;*/
 }
 .navbar-default {
     background-color: rgba(47, 47, 47, 0.20);
@@ -461,7 +461,7 @@ a.navbar-brand {
         background-color: #2f2f2f;
     }
     .navbar-default {
-        border-bottom: 1px solid #00cee8;
+        border-bottom: 1px solid #16bdcc;
     }
     header.navbar.navbar-default.navbar-static-top {
         /* margin-bottom: 33px; */
