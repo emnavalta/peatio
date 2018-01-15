@@ -3,4 +3,4 @@
   base_unit: dgb
   quote_unit: php
   bid: {fee: 0, currency: php, fixed: 2}
-  ask: {fee: 0, currency: dgb, fixed: 8}
+  ask: {fee: 0, currency: dgb, fixed: 4}
