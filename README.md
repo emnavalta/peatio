@@ -41,6 +41,8 @@ NOTE2: less than 4GB of ram you should disable the line that reads bitcoind or y
 
 •Fix minor bug in trade window (profit or loss missing translation)
 
+•Fix Fees (current code does not deduct fees from user, add trading and withdrawal fee for PHP, fees should be updated/added to internal TradeDGB account balance)
+
 
 README in English
 =====================================
