@@ -1538,10 +1538,10 @@ en:
       panel: Login
       new:
         title: Login my account
-        intro: Login TradeDGB now for you to exchange.
+        intro: Login to TradeDGB now for you to exchange.
       failure:
         title: Login my account
-        intro: Login TradeDGB now for you to exchange.
+        intro: Login to TradeDGB now for you to exchange.
     identities:
       panel: Create Account
       new:
@@ -2831,22 +2831,22 @@ en:
       canceled: Cancelled
       failed: Failed
   mainpage:
-    message1: YOUR PROFESSIONAL CRYPTO CURRENCY EXCHANGER
-    message2: The Next Generation Multi Crypto Currency 24/7 Live Exchange
-    message3: Trade multiple digital currencies easy, safe, and smart, TradeDGB brings you a whole new technical view on trading through candle sticks plus line charting now analysis and predicate your future trades based on past and present trades using the simple yet advanced charting tools MA, EMA and MACD.
+    message1: YOUR PROFESSIONAL DGB/PHP EXCHANGER
+    message2: The First DGB/PHP 24/7 Live Exchange In The Philippines
+    message3: Trade DigiByte to Philippine Peso currencies easy, safe, and smart, TradeDGB brings you a whole new technical view on trading through candle sticks plus line charting analysis and predict your future trades based on past and present trades using the simple yet advanced charting tools MA, EMA and MACD.
     message3с: Get Started
-    message4a: Crypto to Crypto exchange
-    message4b: We provide individuals and Merchants a world class experience to buy and sell Multi crypto currencies
+    message4a: DigiByte to Peso exchange
+    message4b: We provide individuals and Merchants a world class experience to buy and sell DigiBytes
     message5a: A Delightful Process
     message5b: Add funds at jet speed with Free and No fee deposits to your account and also instant withdraw options
     message6a: As Easy As Possible
-    message6b: Choose the alt-coins against bitcoin you would like to exchange, Just select buy or sell orders thats it!
+    message6b: You're in control of the price of DigiByte that you want to exchange, Just select buy or sell orders thats it!
     message7a: Best Trading Platform
-    message7b: Traders who demand lightning fast trade execution, stable wallets, and industry-best security practices.
+    message7b: Traders demand lightning fast trade execution, stable wallets, and industry-best security practices.
     message8a: 24/7 Customer Care
     message8b: Whether you are new to trading and crypto currencies, or a Expert, we provide friendly support to all Members!
-    message9a: The Next Generation Multi Crypto Currency 24/7 Live Exchange
-    message9b: The Next Generation Multi Crypto Currency 24/7 Live Exchange
+    message9a: The First DGB/PHP 24/7 Live Exchange In The Philippines
+    message9b: The First DGB/PHP 24/7 Live Exchange In The Philippines
     message10a: Safe and Sound 
     message10b: You get safe, live and secured wallets with Two-way authentication to keep thiefs away from your account.
     message11a: Competitive and low fee
