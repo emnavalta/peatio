@@ -39,6 +39,8 @@ NOTE2: less than 4GB of ram you should disable the line that reads bitcoind or y
 
 •Mailer
 
+•Fix minor bug in trade window (profit or loss missing translation)
+
 
 README in English
 =====================================
