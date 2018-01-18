@@ -1,6 +1,6 @@
 sudo service nginx stop
 bundle exec rake daemons:stop
-mysql -uroot -pmagic123 -e "drop database peatio_production"
+mysql -u root -p magic123 -e "drop database peatio_production"
 bundle exec rake db:setup
 bundle exec rake assets:clean
 bundle exec rake assets:clobber
